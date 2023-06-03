@@ -33,6 +33,7 @@ class Loginscreen extends React.Component {
                     />
                     <TextInput
                         placeholder='Password'
+                        secureTextEntry={true}
                         style={{
                             height: 50,
                             width: "100%",
